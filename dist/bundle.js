@@ -1,5 +1,6 @@
-var store = (function (exports) {
 'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
 
 var classCallCheck = function (instance, Constructor) {
   if (!(instance instanceof Constructor)) {
@@ -144,7 +145,3 @@ var Store = function () {
 }();
 
 exports.Store = Store;
-
-return exports;
-
-}({}));
